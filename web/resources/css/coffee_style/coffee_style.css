@@ -1,0 +1,469 @@
+body {
+	margin: 0;
+	background: #484848;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1025px;
+}
+
+
+/*
+	Left div
+*/
+.left_div {
+	background-image: url("../../images/left_div.jpg");
+	display: inline-table;
+	position: absolute;
+	width: 328px;
+	height: 671px;
+}
+
+.logo_1 {
+	background-image: url("../../images/logo_1.png");
+	margin-left: -2px;
+	opacity: 0.7;
+	position: relative;
+	width: inherit;
+	height: 195px;
+}
+
+.logo_2 {
+	background-image: url("../../images/logo_2.png");
+	margin-top: -195px;
+	position: absolute;
+	width: inherit;
+	height: 195px;
+}
+
+.login_reg {
+	display: inline-block;
+	width: inherit;
+}
+
+.login a {
+	color: #c48601;
+	float: right;
+	font-size: 16px;
+	font-family: "Baskerville Old Face", sans-serif, serif;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin: 50px 0 0 0;
+	opacity: 0.6;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.login a:hover {
+	color: #ffca00;
+}
+
+.slash {
+	color: #fff;
+	float: right;
+	font-family: "Baskerville Old Face", sans-serif, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 50px -10px 0 0;
+	opacity: 0.7;
+}
+
+.reg a {
+	color: #009f8a;
+	float: right;
+	font-family: "Baskerville Old Face", sans-serif, serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin: 65px 20px 0 0;
+	opacity: 0.6;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.reg a:hover {
+	color: #00ffe5;
+}
+
+
+/*
+	Menu
+*/
+.main_menu_ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+.main_menu_li {
+	padding: 10px 0 0 80px;
+	text-align: left;
+}
+
+a.a {
+	color: #fff;
+	font-family: "Play", serif, sans-serif;
+	font-size: 29px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-shadow: 0 1px 6px #0000005e;
+	transition: 1s;
+}
+
+a.a:hover {
+	color: #00f0ff;
+}
+
+
+/*
+	Body
+*/
+.body_div {
+	background-image: url("../../images/body_bg.jpg");
+	height: 671px;
+	width: 697px;
+	margin-left: 328px;
+}
+
+.middle_div {
+	margin-left: 14px;
+	position: absolute;
+	height: 595px;
+	width: 618px;
+}
+
+.coffee_card {
+	color: #fff;
+	font-family: "Play", serif, sans-serif;
+	font-size: 36px;
+	letter-spacing: 4px;
+	margin: 10px;
+	text-align: center;
+}
+
+.coffee_type_main {
+	margin-left: 2px;
+	overflow: auto;
+	height: 533px;
+	width: 616px;
+}
+
+.coffee_type {
+	float: left;
+	margin-top: 20px;
+	height: 240px;
+	width: 200px;
+}
+
+.coffee_type:hover .type {
+	color: #c06902;
+}
+
+.type {
+	color: #fff;
+	font-family: "Play", serif, sans-serif;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin: 5px;
+	text-align: center;
+	transition: 1s;
+}
+
+.coffee_bg {
+	background: url("../../images/table.png") no-repeat;
+	margin: 0 auto;
+	height: 164px;
+	width: 165px;
+	transition: 1s;
+}
+
+.coffee_bg:hover {
+	background: url("../../images/table_hover.png") no-repeat;
+}
+
+.price {
+	color: #fff;
+	font-family: "Play", serif, sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: 0;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.btn_coffee_type {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.btn_coffee_type_link {
+	background: none;
+	border: none;
+	color: #fff;
+	font-family: "Play", serif, sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+.btn_coffee_type_link:hover {
+    cursor: pointer;
+}
+
+.price_span {
+	font-size: 30px;
+}
+
+.right_div {
+	background: -moz-linear-gradient(top, rgba(135,224,253,0) 0%, rgba(165,82,0,0.65) 50%, rgba(5,171,224,0) 100%);
+	background: -webkit-linear-gradient(top, rgba(135,224,253,0) 0%,rgba(165,82,0,0.65) 50%,rgba(5,171,224,0) 100%);
+	background: linear-gradient(to bottom, rgba(135,224,253,0) 0%,rgba(165,82,0,0.65) 50%,rgba(5,171,224,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0087e0fd', endColorstr='#0005abe0',GradientType=0 );
+
+	float: right;
+	height: 620px;
+	width: 65px;
+}
+
+
+/*
+	Footer
+ */
+.footer {
+	background: -moz-linear-gradient(left, rgba(135,224,253,0) 0%, rgba(165,82,0,0.5) 50%, rgba(5,171,224,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(135,224,253,0) 0%,rgba(165,82,0,0.5) 50%,rgba(5,171,224,0) 100%);
+	background: linear-gradient(to right, rgba(135,224,253,0) 0%,rgba(165,82,0,0.5) 50%,rgba(5,171,224,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0087e0fd', endColorstr='#0005abe0',GradientType=1 );
+
+	float: left;
+	margin: -24px 0 0 13px;
+	width: 680px;
+	height: 75px;
+}
+
+.footer_order {
+	display: inline-block;
+	float: left;
+    margin-top: 2px;
+	overflow-x: auto;
+	height: 51px;
+	width: 615px;
+}
+
+.order_list {
+	border-bottom: 2px solid white;
+	color: #fff;
+	font-family: "Play", serif, sans-serif;
+	font-size: 19px;
+	letter-spacing: 2px;
+	margin: -2px 0 0 270px;
+	text-align: center;
+	width: 110px;
+}
+
+.order {
+	color: #fff;
+	float: left;
+	font-family: "Play", serif, sans-serif;
+	font-size: 19px;
+	letter-spacing: 2px;
+	/*margin-left: 9px;*/
+	margin-top: 5px;
+	/*width: 180px;*/
+}
+
+.order_left_div {
+	float: left;
+	text-align: end;
+	width: 136px;
+}
+
+.currency {
+	font-size: 14px;
+}
+
+.order_right_div {
+    display: table;
+	float:  left;
+	padding-left: 6px;
+	width: 30px;
+}
+
+.quantity_cups, .currency_num {
+	color: #ff8a00;
+}
+
+.total_buy {
+	border-left: 2px dashed white;
+	color: #fff;
+	float: left;
+	font-family: "Play", serif, sans-serif;
+	letter-spacing: 1px;
+	margin-top: -22px;
+	text-align: center;
+	width: 63px;
+}
+
+.total_price {
+	font-size: 16px;
+}
+
+.total_price_quantity {
+	color: #ff7e00;
+	font-size: 20px;
+}
+
+.total {
+	height: 37px;
+	width: 67px;
+}
+
+.buy {
+	background: #007574;
+	margin-top: 8px;
+	transition: 1s;
+	height: 30px;
+	width: 67px;
+}
+
+.buy:hover {
+	background: #ff7e00;
+}
+
+.buy:hover .buy_span {
+	color: #007574;
+}
+
+.buy a {
+	text-decoration: none;
+}
+
+.buy_span {
+	color: #ff7e00;
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
+	text-shadow: #005156 1px 0 0, #005156 0 1px 0,
+				 #005156 -1px 0 0, #005156 0 -1px 0;
+	transition: 1s;
+}
+
+
+/*
+	Spinner
+ */
+.ui-spinner {
+	margin-top: 230px;
+}
+
+.ui-spinner-button {
+	background: none!important;
+	border: none!important;
+	box-shadow: none!important;
+	margin: 0!important;
+	padding: 0!important;
+	height: 60px!important;
+	width: 65px!important;
+}
+
+.ui-spinner-input {
+	background: none!important;
+	border: none!important;
+	box-shadow: none!important;
+	color: #00ffcc!important;
+	font-family: "Play", serif, sans-serif!important;
+	font-size: 60px!important;
+	margin-top: 60px!important;
+	padding: 0!important;
+	text-align: center!important;
+	text-shadow: none!important;
+	width: 65px!important;
+}
+
+.ui-spinner-up {
+	margin-top: -20px!important;
+}
+
+.ui-spinner-down {
+	margin-bottom: -62px!important;
+}
+
+.ui-state-default {
+	background: none!important;
+}
+
+.ui-icon {
+	border-radius: 0!important;
+}
+
+.ui-icon-triangle-1-n {
+	background: url("../../images/arrow_up.png")!important;
+	height: 38px!important;
+	width: 65px!important;
+}
+
+.ui-icon-triangle-1-s {
+	background: url("../../images/arrow_down.png")!important;
+	height: 38px!important;
+	width: 65px!important;
+}
+
+.ui-icon-triangle-1-n:hover, .ui-icon-triangle-1-s:hover {
+	cursor: pointer!important;
+}
+
+.ui-text-only, .ui-button-text {
+	padding: 0!important;
+	margin-top: 10px;
+}
+
+
+/*
+	Growl
+ */
+.ui-growl-item-container {
+	background: rgba(255, 104, 0, 0.48)!important;
+	border: rgba(255, 71, 0, 0.48)!important;
+}
+
+.ui-growl-item {
+	font-family: "Play", serif, sans-serif!important;
+}
+
+.ui-growl-message {
+	color: #00f3ff!important;
+}
+
+.ui-growl-title {
+	color: #ff5200!important;
+}
+
+
+/*
+	Scrollbar
+ */
+::-webkit-scrollbar-button {
+	background: url('') no-repeat;
+	width:6px;
+	height:0;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(41, 15, 0, 0.21);
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: rgba(75, 23, 0, 0.35) url('https://yraaa.ru/_pu/24/59610063.png') no-repeat center;
+}
+
+::-webkit-resizer{
+	background: url('') no-repeat;
+	width:7px;
+	height:0;
+}
+
+::-webkit-scrollbar{
+	width: 5px;
+}
